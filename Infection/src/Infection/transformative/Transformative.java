@@ -2,13 +2,13 @@ package Infection.transformative;
 
 import org.bukkit.entity.EntityType;
 
-public class TransformativeDisease {
+public class Transformative {
 	
 	public EntityType carrier;
 	public float chance;
 	public Stage[] stages;
 	
-	public TransformativeDisease(EntityType newCarrier, float newChance, Stage[] newStages) {
+	public Transformative(EntityType newCarrier, float newChance, Stage[] newStages) {
 		carrier = newCarrier;
 		chance = newChance;
 		stages = newStages;

@@ -18,7 +18,7 @@ public class CarrierListener implements Listener {
 		if (e.getEntityType() != EntityType.PLAYER) return;
 		
 		// Check if any carriers attacked the player.
-		for (CarrierDisease disease : InfectionUtil.carriers) {
+		for (Carrier disease : InfectionUtil.carriers) {
 			
 			if (e.getDamager().getType() == disease.carrier) {
 				// Roll for infection chance.
